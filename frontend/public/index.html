@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
+    />
+    <link
+      rel="stylesheet"
+      href="/adminlte/plugins/fontawesome-free/css/all.min.css"
+    />
+    <!-- daterange picker -->
+    <link
+      rel="stylesheet"
+      href="/adminlte/plugins/daterangepicker/daterangepicker.css"
+    />
+    <!-- Select2 -->
+    <link rel="stylesheet" href="/adminlte/plugins/select2/css/select2.min.css" />
+    <link
+      rel="stylesheet"
+      href="/adminlte/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css"
+    />
+    <link rel="stylesheet" href="/adminlte/dist/css/adminlte.min.css?v=3.2.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body class="skin-blue sidebar-mini text-sm">
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="/adminlte/plugins/jquery/jquery.min.js"></script>
+    <script src="/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- date-range-picker -->
+<script src="/adminlte/plugins/daterangepicker/daterangepicker.js"></script>
+    <script src="/adminlte/dist/js/adminlte.min.js?v=3.2.0"></script>
+
+  </body>
+</html>
